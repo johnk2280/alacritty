@@ -13,9 +13,36 @@ decorations = "buttonless"
 opacity = 0.95
 # blur = true
 
+# [font]
+# normal.family = "JetBrainsMono Nerd Font"
+# normal.style = "Regular"
+# size = 14.0
+
 [font]
-normal.family = "JetBrainsMono Nerd Font"
+# Размер шрифта в пунктах
 size = 14.0
+builtin_box_drawing = true
+
+# Начертание Normal (обычное)
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Thin"
+
+# Начертание Italic (курсив)
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Thin Italic"
+
+# Начертание Bold (жирное)
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+# Начертание Bold Italic (жирное)
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Regular Italic"
+
 
 [colors.cursor]
 text = "#000000"
